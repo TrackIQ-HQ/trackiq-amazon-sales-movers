@@ -4,7 +4,7 @@
   "category": "operations",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Ranks an Amazon catalogue by how much each product's revenue moved between two periods and decomposes every mover into its cause \u2014 traffic, conversion rate, units per order, or average selling price \u2014 so the answer is \"sessions fell 31%\", not \"sales are down\". Use when the user asks why sales are down or up, what moved, which products changed, root cause, what happened last week, sales diagnosis, ",
+  "summary": "Ranks an Amazon catalogue by how much each product's revenue moved between two periods and decomposes every mover into its cause \u2014 traffic, conversion rate, units per order, or average selling price \u2014 so the answer is \"sessions fell 31%\", not \"sales are down\".",
   "changelog": "First public release.",
   "requires": {
     "mcp": [
