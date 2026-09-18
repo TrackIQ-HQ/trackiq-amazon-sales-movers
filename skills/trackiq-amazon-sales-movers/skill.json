@@ -1,0 +1,35 @@
+{
+  "name": "trackiq-amazon-sales-movers",
+  "title": "TrackIQ: Amazon Sales Movers and Root Cause",
+  "category": "operations",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Ranks an Amazon catalogue by how much each product's revenue moved between two periods and decomposes every mover into its cause \u2014 traffic, conversion rate, units per order, or average selling price \u2014 so the answer is \"sessions fell 31%\", not \"sales are down\". Use when the user asks why sales are down or up, what moved, which products changed, root cause, what happened last week, sales diagnosis, ",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_account_overview",
+      "get_product_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": true,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-sales-movers",
+  "license": "MIT"
+}
